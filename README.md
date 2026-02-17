@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ArrVendor 🚀
 
-## Getting Started
+ArrVendor is a modern, multi-tenant platform designed for street vendors and small business owners to digitize their menus and receive orders effortlessly.
 
-First, run the development server:
+## ✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 🏢 **Multi-Tenancy**: Every vendor gets their own unique subdomain (e.g., `vendor.localhost:3000`).
+- 📊 **Vendor Dashboard**: 
+  - **Overview**: Track menu items and download your unique QR code.
+  - **Menu Management**: Easily add, edit, or remove items with availability toggles.
+  - **Settings**: Manage shop details, WhatsApp numbers, and UPI IDs.
+- 📱 **Premium Customer View**:
+  - High-end, mobile-responsive UI with glassmorphism and smooth animations.
+  - Category-based filtering.
+  - One-click **Order via WhatsApp**.
+  - Integrated **Pay via UPI**.
+- 🖼️ **Image Support**: High-quality product images for a professional look.
+- 💾 **JSON Persistence**: Lightweight and fast data storage using local JSON files.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Framework**: [Next.js 14](https://nextjs.org/) (App Router)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **QR Codes**: [react-qr-code](https://www.npmjs.com/package/react-qr-code)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Getting Started
 
-## Learn More
+### Prerequisites
 
-To learn more about Next.js, take a look at the following resources:
+- Node.js 18+
+- npm / pnpm / yarn
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Installation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/AdelliRahulReddy/arrvendor.git
+   cd arrvendor
+   ```
 
-## Deploy on Vercel
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. Access the application:
+   - **Main Site**: [http://localhost:3000](http://localhost:3000)
+   - **Demo Vendor Dashboard**: [http://rahulreddy-adelli.localhost:3000/dashboard](http://rahulreddy-adelli.localhost:3000/dashboard)
+   - **Demo Customer View**: [http://rahulreddy-adelli.localhost:3000](http://rahulreddy-adelli.localhost:3000)
+
+## 📝 License
+
+Distributed under the MIT License.
